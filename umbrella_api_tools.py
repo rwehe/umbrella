@@ -1,8 +1,6 @@
 import os
-from dotenv import load_dotenv
 from umbrella_destination_lists import getDestinationLists
 
-load_dotenv()
 organizationId = os.environ.get("organizationId")
 management_key = os.environ.get("management_key")
 management_secret = os.environ.get("management_secret")
