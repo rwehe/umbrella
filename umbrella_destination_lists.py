@@ -1,6 +1,5 @@
 import requests
 import json
-#from umbrella_api_tools import organizationId, management_key, management_secret
 
 base_uri = 'https://management.api.umbrella.com/v1'
 
